@@ -22,7 +22,7 @@ from .errors import RecallDeckError
 from .db import Store, Deck, Card, default_db_path
 from . import srs, stats, importer
 
-__version__ = "1.0.5"
+__version__ = "1.0.6"
 
 __all__ = [
     "RecallDeckError",

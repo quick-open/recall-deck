@@ -96,6 +96,7 @@ def build_app():
     """Construct and return the App class bound to live GUI imports."""
     import tkinter as tk
     from tkinter import ttk, filedialog, messagebox, simpledialog
+    from .aura import filedialog  # noqa: F811 - Aura kdialog-native pickers
     import customtkinter as ctk
 
     from . import aura, guiconfig
